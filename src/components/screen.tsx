@@ -41,12 +41,12 @@ export const Screen: React.FC<ScreenProps> = ({ ask, foto, r1, r2, r3, r4 }) => 
             </div>
             <div className="flex flex-col items-center gap-24 mt-20 group">
                 <div className="flex flex-row justify-center gap-32 flex-wrap">
-                    <button onClick={() => respQuestion()} className="bg-orange-800 p-3 text-xl rounded-xl border-2 border-orange-950 hover:scale-110 hover:rotate-1 transition">{r1}</button>
-                    <button onClick={() => respQuestion()} className="bg-orange-800 p-3 text-xl rounded-xl border-2 border-orange-950 hover:scale-110 hover:rotate-1 transition">{r2}</button>
+                    <button onClick={() => respQuestion()} className="bg-orange-800 p-3 text-xl hover:bg-orange-600 rounded-xl border-2 border-orange-950 hover:scale-110 hover:rotate-1 transition">{r1}</button>
+                    <button onClick={() => respQuestion()} className="bg-orange-800 p-3 text-xl hover:bg-orange-600 rounded-xl border-2 border-orange-950 hover:scale-110 hover:rotate-1 transition">{r2}</button>
                 </div>
                 <div className="flex flex-row justify-center gap-32 flex-wrap">
-                    <button onClick={() => respQuestion()} className="bg-orange-800 p-3 text-xl rounded-xl border-2 border-orange-950 hover:scale-110 hover:rotate-1 transition">{r3}</button>
-                    <button onClick={() => respQuestion()} className="bg-orange-800 p-3 text-xl rounded-xl border-2 border-orange-950 hover:scale-110 hover:rotate-1 transition">{r3}</button>
+                    <button onClick={() => respQuestion()} className="bg-orange-800 p-3 text-xl hover:bg-orange-600 rounded-xl border-2 border-orange-950 hover:scale-110 hover:rotate-1 transition">{r3}</button>
+                    <button onClick={() => respQuestion()} className="bg-orange-800 p-3 text-xl hover:bg-orange-600 rounded-xl border-2 border-orange-950 hover:scale-110 hover:rotate-1 transition">{r3}</button>
                 </div>
             </div>
         </main>
