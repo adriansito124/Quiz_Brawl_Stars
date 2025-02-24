@@ -7,7 +7,7 @@ import { Screen } from "@/components/screen";
 export default function Home() {
   return (
     <>
-      <Screen ask="Pergunta?" foto={logo.src} r1={"resposta1"} r2={"resposta2"} r3={"resposta3"} r4={"resposta4"} rota={"2"}></Screen>
+      <Screen ask="Pergunta2?" foto={logo.src} r1={"resposta1.2"} r2={"resposta2.2"} r3={"resposta3.2"} r4={"resposta4.2"}></Screen>
     </>
   );
 }
