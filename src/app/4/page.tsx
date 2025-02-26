@@ -7,7 +7,7 @@ import { Screen } from "@/components/screen";
 export default function Home() {
   return (
     <>
-      <Screen ask="Escolha uma raridade:" foto={rarity.src} r1={"Raro"} r2={"Épico"} r3={"Mítico"} r4={"Lendário"} rota={"2"} nrota={2}></Screen>
+      <Screen ask="Escolha uma raridade:" foto={rarity.src} r1={"Raro"} r2={"Épico"} r3={"Mítico"} r4={"Lendário"} rota={"5"} nrota={5}></Screen>
     </>
   );
 }

@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import { useState } from "react";
+import { useRouter } from "next/navigation";
 
 interface ScreenProps {
     foto: string;
@@ -9,13 +10,19 @@ interface ScreenProps {
     r2: string;
     r3: string;
     r4: string;
+    rota: string;
+    nrota: number;
 }
 
-export const Screen: React.FC<ScreenProps> = ({ ask, foto, r1, r2, r3, r4 }) => {
+export const Screen: React.FC<ScreenProps> = ({ ask, foto, r1, r2, r3, r4, rota, nrota }) => {
 
     const brawlers: string[] = [];
+    const router = useRouter()
 
     const respQuestion = () => {
+
+        router.push(`/${rota}`)
+        
         brawlers.forEach(element => {
             var x = localStorage.getItem(element);
             if (x) {
@@ -37,7 +44,7 @@ export const Screen: React.FC<ScreenProps> = ({ ask, foto, r1, r2, r3, r4 }) => 
                 <p className="text-4xl transition duration-1000 text-white font-semibold">{ask}</p>
             </div>
             <div className="flex justify-center items-start w-screen mt-40">
-                <Image src={foto} alt="ícone ideia" className="w-full max-w-60 m-4 hover:scale-110 transition hover:rotate-6 duration-500" width={1000} height={1000}/>
+                {nrota%2==0 ? <Image src={foto} alt="ícone ideia" className="w-full max-w-80 m-4 hover:scale-110 transition hover:rotate-6 duration-500" width={1000} height={1000}/> : <Image src={foto} alt="ícone ideia" className="w-full max-w-80 m-4 hover:scale-110 transition hover:-rotate-6 duration-500" width={1000} height={1000}/>}
             </div>
             <div className="flex flex-col items-center gap-24 mt-20 group">
                 <div className="flex flex-row justify-center gap-32 flex-wrap">
@@ -46,7 +53,7 @@ export const Screen: React.FC<ScreenProps> = ({ ask, foto, r1, r2, r3, r4 }) => 
                 </div>
                 <div className="flex flex-row justify-center gap-32 flex-wrap">
                     <button onClick={() => respQuestion()} className="bg-orange-800 p-3 text-xl hover:bg-orange-600 rounded-xl border-2 border-orange-950 hover:scale-110 hover:rotate-1 transition">{r3}</button>
-                    <button onClick={() => respQuestion()} className="bg-orange-800 p-3 text-xl hover:bg-orange-600 rounded-xl border-2 border-orange-950 hover:scale-110 hover:rotate-1 transition">{r3}</button>
+                    <button onClick={() => respQuestion()} className="bg-orange-800 p-3 text-xl hover:bg-orange-600 rounded-xl border-2 border-orange-950 hover:scale-110 hover:rotate-1 transition">{r4}</button>
                 </div>
             </div>
         </main>
