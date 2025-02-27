@@ -20,14 +20,14 @@ export default function Home() {
 
   const style =
   {
-    main: "min-h-screen w-full bg-slate-400 flex flex-col justify-start text-black",
-    botao: "p-2 bg-slate-700 rounded-md px-5 hover:bg-slate-600 transition",
+    main: "min-h-screen w-full bg-blue-400 flex flex-col justify-start text-black",
+    botao: "p-2 bg-blue-700 rounded-md px-5 hover:bg-blue-600 transition",
   }
 
   return (
     <>
       <main className={style.main}>
-        <div className="w-full p-5 bg-slate-500 fixed top-0 justify-center items-center flex">
+        <div className="w-full p-5 bg-blue-500 fixed top-0 justify-center items-center flex">
           <p className="text-4xl transition duration-1000 text-white font-semibold">Quiz do Brawl Stars</p>
         </div>
         <div className="flex flex-col items-center gap-24 mt-20 group">
