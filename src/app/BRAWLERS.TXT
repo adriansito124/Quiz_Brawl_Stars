@@ -1,0 +1,108 @@
+// Inicial
+    
+    localStorage.setItem("lightyear", '0')
+    localStorage.setItem("shelly", '0')
+
+    // Raros
+
+    localStorage.setItem("nita", '0')
+    localStorage.setItem("colt", '0')
+    localStorage.setItem("bull", '0')
+    localStorage.setItem("elprimo", '0')
+    localStorage.setItem("barley", '0')
+    localStorage.setItem("rosa", '0')
+    localStorage.setItem("brock", '0')
+    localStorage.setItem("poco", '0')
+    
+    // SuperRaro
+    
+    localStorage.setItem("gus", '0')
+    localStorage.setItem("jacky", '0')
+    localStorage.setItem("jessie", '0')
+    localStorage.setItem("carl", '0')
+    localStorage.setItem("dynamike", '0')
+    localStorage.setItem("8-bit", '0')
+    localStorage.setItem("rico", '0')
+    localStorage.setItem("tick", '0')
+    localStorage.setItem("darryl", '0')
+    localStorage.setItem("penny", '0')
+    
+    // Epico
+    
+    localStorage.setItem("shade", '0')
+    localStorage.setItem("bo", '0')
+    localStorage.setItem("piper", '0')
+    localStorage.setItem("bea", '0')
+    localStorage.setItem("mandy", '0')
+    localStorage.setItem("hank", '0')
+    localStorage.setItem("pearl", '0')
+    localStorage.setItem("berry", '0')
+    localStorage.setItem("pam", '0')
+    localStorage.setItem("maisie", '0')
+    localStorage.setItem("grom", '0')
+    localStorage.setItem("bonnie", '0')
+    localStorage.setItem("sam", '0')
+    localStorage.setItem("angelo", '0')
+    localStorage.setItem("meeple", '0')
+    localStorage.setItem("lola", '0')
+    localStorage.setItem("griff", '0')
+    localStorage.setItem("ash", '0')
+    localStorage.setItem("stu", '0')
+    localStorage.setItem("coronel ruffs", '0')
+    localStorage.setItem("belle", '0')
+    localStorage.setItem("edgar", '0')
+    localStorage.setItem("emz", '0')
+    localStorage.setItem("larry & lawrie", '0')
+    localStorage.setItem("bibi", '0')
+    
+    // Mitico
+    
+    localStorage.setItem("tara", '0')
+    localStorage.setItem("mortis", '0')
+    localStorage.setItem("juju", '0')
+    localStorage.setItem("clancy", '0')
+    localStorage.setItem("lily", '0')
+    localStorage.setItem("moe", '0')
+    localStorage.setItem("eve", '0')
+    localStorage.setItem("mico", '0')
+    localStorage.setItem("melodie", '0')
+    localStorage.setItem("chuck", '0')
+    localStorage.setItem("doug", '0')
+    localStorage.setItem("eugenio", '0')
+    localStorage.setItem("buster", '0')
+    localStorage.setItem("r-t", '0')
+    localStorage.setItem("willow", '0')
+    localStorage.setItem("otis", '0')
+    localStorage.setItem("charlie", '0')
+    localStorage.setItem("gray", '0')
+    localStorage.setItem("ollie", '0')
+    localStorage.setItem("buzz", '0')
+    localStorage.setItem("fang", '0')
+    localStorage.setItem("squeak", '0')
+    localStorage.setItem("janet", '0')
+    localStorage.setItem("byron", '0')
+    localStorage.setItem("lou", '0')
+    
+    // Lendario
+    
+    localStorage.setItem("corvo", '0')
+    localStorage.setItem("spike", '0')
+    localStorage.setItem("leon", '0')
+    localStorage.setItem("sandy", '0')
+    localStorage.setItem("kenji", '0')
+    localStorage.setItem("draco", '0')
+    localStorage.setItem("kit", '0')
+    localStorage.setItem("cordelius", '0')
+    localStorage.setItem("chester", '0')
+    localStorage.setItem("meg", '0')
+    
+    // Nada
+    
+    localStorage.setItem("amber", '0')
+    localStorage.setItem("colette", '0')
+    localStorage.setItem("wattson", '0')
+    localStorage.setItem("nani", '0')
+    localStorage.setItem("gale", '0')
+    localStorage.setItem("sprout", '0')
+    localStorage.setItem("mister p", '0')
+    localStorage.setItem("max", '0')
