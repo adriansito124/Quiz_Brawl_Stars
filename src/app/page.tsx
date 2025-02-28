@@ -31,7 +31,7 @@ export default function Home() {
           <p className="text-4xl transition duration-1000 text-white font-semibold">Quiz do Brawl Stars</p>
         </div>
         <div className="flex flex-col items-center gap-24 mt-20 group">
-          <Image src={logo} alt="logo brauzin" className="w-full max-w-60 mt-20 hover:scale-105 opacity-95 hover:opacity-100 transition duration-300 "></Image>
+          <Image src={logo} alt="logo brauzin" className="w-full max-w-60 mt-20 hover:scale-105 opacity-95 hover:opacity-100 transition duration-300 rounded-full hover:-rotate-3"></Image>
           <button onClick={() => Start()} className="bg-orange-800 font-medium p-3 px-10 text-xl hover:bg-orange-600 rounded-xl border-2 border-orange-950 hover:scale-110 transition">Start</button>
         </div>
       </main>
